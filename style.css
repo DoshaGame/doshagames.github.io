@@ -23,7 +23,7 @@ body {
     cursor: pointer;
 }
 #hit-area img{
-  user-select: none;
+  
   height: auto;
   width: 217px;
 margin-top: 0px;
