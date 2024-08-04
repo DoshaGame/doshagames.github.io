@@ -39,7 +39,7 @@ function showHitArea() {
         // Добавление события нажатия
         hitArea.onclick = () => {
             score++;
-            document.getElementById('score').textContent = 'Очки: ' + score;
+            document.getElementById('score').textContent = 'Score: ' + score;
         };
 
     }, 1000); // показывать красный цвет 1 секунду
