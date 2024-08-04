@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     user-select: none;
+    background-color: #152f2e;
 }
 
 #game {
@@ -10,7 +11,9 @@ body {
 
 #hit-area {
     width: 300px;
-    height: 100px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid blue;
     background-color: #4CAF50;
     margin: 20px auto;
     display: none;
@@ -19,7 +22,19 @@ body {
     font-size: 24px;
     cursor: pointer;
 }
+#hit-area img{
+  user-select: none;
+  height: auto;
+  width: 217px;
+margin-top: 0px;
+border-radius: 50%;
+  border: 5px solid blue;
+}
+
 #start-button {
   border-radius: 20px;
-  
+  width: 100px;
+  height: 200px;
+  background-color: blue;
+  font-size: 20px;
 }
