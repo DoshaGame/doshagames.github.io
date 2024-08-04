@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    user-select: none;
+}
+
+#game {
+    margin-top: 50px;
+}
+
+#hit-area {
+    width: 300px;
+    height: 100px;
+    background-color: #4CAF50;
+    margin: 20px auto;
+    display: none;
+    line-height: 100px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+#start-button {
+  border-radius: 20px;
+  
+}
